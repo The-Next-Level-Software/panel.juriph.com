@@ -29,7 +29,7 @@ import ClientLayout from "./components/Client/Layout";
 import ClientDashboard from "./Pages/Client/Dashboard";
 import ClientActiveCases from "./Pages/Client/ActiveCases";
 import ClientCaseDetail from "./Pages/Client/CaseDetails";
-import ClientHistoryAndFeedback from "./Pages/Client/HistoryAndFeedback";
+import HistoryAndFeedback from "./Pages/Client/HistoryAndFeedback";
 import ClientMessages from "./Pages/Client/Messages";
 import ClientPayments from "./Pages/Client/Payments";
 import ClientBidsReceived from "./Pages/Client/BidsReceived";
@@ -109,7 +109,7 @@ function App() {
         <Route path="active-cases/details" element={<ClientCaseDetail />} />
         <Route
           path="history-and-feedback"
-          element={<ClientHistoryAndFeedback />}
+          element={<HistoryAndFeedback />}
         />
         <Route path="messages" element={<ClientMessages />} />
         <Route path="payments" element={<ClientPayments />} />
