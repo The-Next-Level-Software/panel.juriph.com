@@ -29,7 +29,7 @@ import ClientLayout from "./components/Client/Layout";
 import ClientDashboard from "./Pages/Client/Dashboard";
 import ClientActiveCases from "./Pages/Client/ActiveCases";
 import ClientCaseDetail from "./Pages/Client/CaseDetails";
-import HistoryAndFeedback from "./Pages/Client/HistoryAndFeedback";
+import HistoryAndFeedback from "./Pages/Client/HistoryandFeedback";
 import ClientMessages from "./Pages/Client/Messages";
 import ClientPayments from "./Pages/Client/Payments";
 import ClientBidsReceived from "./Pages/Client/BidsReceived";
