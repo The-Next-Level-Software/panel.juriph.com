@@ -33,7 +33,7 @@ import HistoryAndFeedback from "./Pages/Client/HistoryAndFeedback";
 import ClientMessages from "./Pages/Client/Messages";
 import ClientPayments from "./Pages/Client/Payments";
 import ClientBidsReceived from "./Pages/Client/BidsReceived";
-import ClientPostACase from "./Pages/Client/PostaCase";
+import ClientPostACase from "./Pages/Client/PostACase";
 
 import ClientSettingsLayout from "./components/Client/SettingLayout";
 import ClientProfile from "./Pages/Client/Settings/Profile";
