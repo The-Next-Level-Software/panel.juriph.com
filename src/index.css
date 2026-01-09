@@ -1,0 +1,35 @@
+@import "tailwindcss";
+/* index.css */
+
+html,
+body {
+  font-family: "Noto Sans", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+
+
+.menu-link {
+  @apply relative z-10 flex items-center gap-3 px-4 py-3 rounded-lg
+         text-[16px] font-[600] text-[#657475]
+         transition-colors duration-300;
+}
+
+.menu-link::before {
+  content: "";
+  @apply absolute inset-0 rounded-lg bg-[#EFE2C8]
+         opacity-0 scale-[0.95]
+         transition-all duration-300 ease-out;
+  z-index: -1;
+}
+
+.menu-link:hover::before {
+  @apply opacity-60 scale-100;
+}
+
+.menu-link.active::before {
+  @apply opacity-100 scale-100;
+}
+
+.menu-link.active {
+  @apply bg-[#EFE2C8] text-[#012B37] border-l-4 border-b-1 border-[#E8C284];
+}
