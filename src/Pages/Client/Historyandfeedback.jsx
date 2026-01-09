@@ -260,7 +260,7 @@ const FeedbackSubmittedPanel = ({ rating = 5, comment }) => {
 };
 
 // ---------- Page ----------
-export default function LawyerFeedbackPage() {
+export default function HistoryAndFeedback() {
   const dummy = {
     title: "Case Title Goes here",
     desc:
