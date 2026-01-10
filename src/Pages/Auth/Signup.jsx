@@ -107,16 +107,16 @@ export default function SignUp() {
     // TODO: call signup api
     // const res = await signup(payload);
 
-    // ✅ After signup success -> route based on localStorage user type
+   
     const userType = (localStorage.getItem("juriph_user_type") || "").toLowerCase();
 
     if (userType === "client") {
-      navigate("/client-welcome"); // ✅ your client steps page route
+      navigate("/client-welcome"); // 
     } else if (userType === "lawyer") {
-      navigate("/lawyer-welcome"); // ✅ your lawyer steps page route
+      navigate("/lawyer-welcome"); // 
     } else {
       setSubmitError("User type not found. Please select Client or Lawyer first.");
-      // optionally: navigate("/select-page");
+      
     }
   };
 
