@@ -145,7 +145,7 @@ function Home() {
 
             <div className="mt-8 flex justify-center lg:justify-start">
               <button className="w-full sm:w-auto px-8 py-3 cursor-pointer bg-[#fff9ec] rounded-lg font-medium border border-[#E8C284] text-[#012B37] hover:bg-[#f5e5c7] transition">
-                Sign Up as Lawyer
+                Post Your Case Now
               </button>
             </div>
           </div>

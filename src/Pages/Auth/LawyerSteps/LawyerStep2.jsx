@@ -10,10 +10,9 @@ export default function LawyerStep2() {
   const fileRef = useRef(null);
 
   const [form, setForm] = useState({
-    degreeFile: null, // required
-    barMember: "", // required: "yes" | "no"
-    barId: "", // required if barMember === "yes"
-    experience: "", // required: "lt1" | "1_3" | "4_7" | "8p"
+    degreeFile: null, 
+    barId: "", 
+    experience: "", 
   });
 
   const [touched, setTouched] = useState({
