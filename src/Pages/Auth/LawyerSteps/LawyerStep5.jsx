@@ -1,7 +1,7 @@
 import React, { useMemo, useRef, useState } from "react";
 import Frame from "../../../assets/Frame.png";
 import Juriph from "../../../assets/Juriph Logo.png";
-import StepFive from "../../../assets/step-five.png"; // (optional) if you have it
+import StepFive from "../../../assets/step-five.png";   
 import AuthFooter from "../../../components/AuthFooter";
 import { useNavigate } from "react-router-dom";
 
@@ -11,8 +11,8 @@ export default function LawyerStep5({ onNext }) {
 
   const [form, setForm] = useState({
     bio: "",
-    profilePic: null, // optional (JPG/PNG)
-    ready: "", // required: "yes" | "no"
+    profilePic: null, 
+    ready: "", 
   });
 
   const [touched, setTouched] = useState({
@@ -24,8 +24,7 @@ export default function LawyerStep5({ onNext }) {
   const [errors, setErrors] = useState({});
 
   const allowedTypes = useMemo(() => ["image/jpeg", "image/png"], []);
-  const maxBytes = 5 * 1024 * 1024; // 5MB (change if you want)
-
+  const maxBytes = 5 * 1024 * 1024; // 5MB 
   const markTouched = (key) => setTouched((p) => ({ ...p, [key]: true }));
 
   const validate = (next = form) => {
